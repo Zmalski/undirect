@@ -12,7 +12,7 @@
 
     "content_scripts": [{
         "matches": ["*://*.bluemediafiles.com/*"],
-        "js": ["undirect.js"]
+        "js": ["sweetalert2.all.min.js", "undirect.js"]
     }]
 
 }
